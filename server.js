@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5000;
 
 const server = express()
   .use("*", function (req, res) {
-    res.send("hello world");
+    res.send("Visit https://github.com/Ritesh-Aggarwal to view source code.");
   })
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
